@@ -22,3 +22,43 @@ footer {
 html {
   background-color: #000000;
 }
+
+#container1{
+  display: grid;
+  grid-template-columns: 3.5fr 8.75fr 1fr 8.75fr 3.75fr;
+  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
+}
+
+#container1 .cabecera{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row:1/2;
+}
+
+#container1 .imagen1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#container1 .imagen2{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+
+#container1 .texto1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 1/6;
+  grid-row: 4/5;
+  margin: auto;
+}
+
+#container1 .pie{
+  grid-column: 1/6;
+  grid-row: 7/8;
+}
